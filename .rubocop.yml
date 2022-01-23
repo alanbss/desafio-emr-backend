@@ -1,0 +1,75 @@
+Naming/RescuedExceptionsVariableName:
+  PreferredName: exception
+
+Metrics/LineLength:
+  Max: 250
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Lint/UnusedMethodArgument:
+  AllowUnusedKeywordArguments: true
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+PerceivedComplexity:
+  Enabled: false
+
+CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+# Permite utilização de acentos nos comentários
+AsciiComments:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec//*.rb"
+    - "test//.rb"
+
+AllCops:
+  TargetRubyVersion: 2.7.4
+  SuggestExtensions: false
+  Exclude:
+    - "coverage/**/"
+    - "documentation//*"
+    - "log//"
+    - "public/**/"
+    - "tmp/*/"
