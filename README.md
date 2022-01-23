@@ -1,13 +1,13 @@
-#Desafio Desenvolvedor Junior EMR BACK-END
+# Desafio Desenvolvedor Junior EMR BACK-END
 
 CRUD API REST for company employees and roles management
 
-##Using:
+## Using:
 
 -- Ruby version 2.7.4 with Rails 6.1.4.4
 -- PostgreSQL
 
-##How to use?
+## How to use?
 
 --bundle install
 --rails db:create
@@ -15,7 +15,7 @@ CRUD API REST for company employees and roles management
 --rails db:seed
 --rails s
 
-##Main Features
+## Main Features
 
 -- Allow user to create, read, update and destroy a employee or a role
 
